@@ -9,15 +9,34 @@ nav {
   display: flex;
   gap: 2rem;
   justify-content: center;
-  padding: 2rem;
-  font-size: 1.2em;
-  
+  padding: 1rem;
+  font-size: 1.1em;
 }
 
-a{
+a {
   transition: transform 0.5s ease;
 }
 
 a:hover {
   transform: scale(1.2);
+}
+
+.top-nav {
+  background-color: #a2c47f;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem;
+  align-items: center;
+  height: 2rem;
+}
+
+.truck {
+  width: 5rem;
+  height: auto;
+  position: relative;
+  object-fit: contain;
+  top: 0.3rem;
+  left: 0.4rem;
+  z-index: 2;
 }
