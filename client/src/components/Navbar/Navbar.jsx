@@ -1,8 +1,5 @@
 import React from "react";
-import { Link, Routes, Route } from "react-router-dom";
-import Home from "../../pages/Home/Home";
-import Shop from "../../pages/Shop/Shop";
-import About from "../../pages/About/About";
+import {Link} from "react-router-dom";
 import "./Navbar.scss";
 import Nepalflag from "../../Images/nepal-flag-icon.svg?url";
 import truck from "../../Images/truck.gif";
@@ -22,25 +19,19 @@ const Navbar = (props) => {
           </div>
           <nav>
             <Link to={"/home"}>
-              <a>Home</a>{" "}
+              Home{" "}
             </Link>
             <Link to={"/shop"}>
-              <a>Shop</a>{" "}
+              Shop{" "}
             </Link>
-            <Link>
-              <a>Contact Us</a>
+            <Link to={"/contactus"}>
+              Contact Us
             </Link>
             <Link to={"/aboutus"}>
-              <a>About Us</a>
+              About Us
             </Link>
           </nav>
         </div>
-
-        <Routes>
-          <Route path="/home" element={<Home />}></Route>
-          <Route path="/shop" element={<Shop />}></Route>
-          <Route path="/aboutus" element={<About />}></Route>
-        </Routes>
       </div>
     </>
   );
