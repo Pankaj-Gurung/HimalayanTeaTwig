@@ -1,11 +1,9 @@
 * {
   text-decoration: none;
   margin: 0;
-  padding: 0;
 }
 
 nav {
-  color: black;
   display: flex;
   gap: 2rem;
   justify-content: center;
@@ -13,13 +11,7 @@ nav {
   font-size: 1.1em;
 }
 
-a {
-  transition: transform 0.5s ease;
-}
 
-a:hover {
-  transform: scale(1.2);
-}
 
 .top-nav {
   background-color: #a2c47f;
@@ -39,4 +31,18 @@ a:hover {
   top: 0.3rem;
   left: 0.4rem;
   z-index: 2;
+  
 }
+
+a{
+  color: black;
+  transition: transform 0.3s ease, 0.5s ease;
+
+  &:hover{
+    color: #a2c47f;
+    transform: scale(1.2);
+  }
+}
+
+
+

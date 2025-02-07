@@ -17,7 +17,7 @@ const Navbar = (props) => {
               <img src={truck} alt="" className="truck" />
             </p>
           </div>
-          <nav>
+          <nav className="nav-link-wrap">
             <Link to={"/home"}>
               Home{" "}
             </Link>
