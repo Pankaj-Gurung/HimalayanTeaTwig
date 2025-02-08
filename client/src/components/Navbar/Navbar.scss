@@ -1,24 +1,18 @@
 * {
   text-decoration: none;
   margin: 0;
-  padding: 0;
 }
 
 nav {
-  color: black;
   display: flex;
-  gap: 2rem;
-  justify-content: center;
-  padding: 1rem;
+  justify-content: space-between;  // Space out items
+  align-items: center;  // Align items vertically
+  padding: 1rem 2rem;
   font-size: 1.1em;
 }
 
-a {
-  transition: transform 0.5s ease;
-}
-
-a:hover {
-  transform: scale(1.2);
+.logo img {
+  width: 80px; // Adjust logo size as needed
 }
 
 .top-nav {
@@ -39,4 +33,27 @@ a:hover {
   top: 0.3rem;
   left: 0.4rem;
   z-index: 2;
+  
 }
+
+a{
+  color: black;
+  transition: transform 0.3s ease, 0.5s ease;
+
+  &:hover{
+    color: #a2c47f;
+    transform: scale(1.2);
+  }
+}
+.link-wrapper {
+  flex: 3;  // Allows links to take more space
+  display: flex;
+  justify-content: center;  // Centering links
+  gap: 4rem;
+}
+
+
+
+
+
+
