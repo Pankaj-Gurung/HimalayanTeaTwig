@@ -1,5 +1,5 @@
 🌿 Himalayan Tea Twigs
-🚀 An elegant e-commerce platform for premium Himalayan tea lovers, built with React.
+🚀 Ecommerce website for Himalayan Tea Twigs, all the teas imported from Ilam. 
 
 📌 Overview
 Himalayan Tea Twigs is a modern tea shop website that offers a seamless shopping experience for tea enthusiasts. The platform provides a user-friendly interface, beautiful UI/UX, and smooth functionality to browse and purchase high-quality Himalayan tea online.
