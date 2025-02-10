@@ -24,10 +24,10 @@ const Navbar = (props) => {
   <div className="logo"><img src={logo} alt="Logo" /></div>
 
   <div className="link-wrapper">
-    <Link to={"/home"}>Home</Link>
-    <Link to={"/shop"}>Shop</Link>
-    <Link to={"/contactus"}>Contact Us</Link>
-    <Link to={"/aboutus"}>About Us</Link>
+    <Link className="nav-links" to={"/home"} >Home</Link>
+    <Link className="nav-links" to={"/shop"}>Shop</Link>
+    <Link className="nav-links" to={"/contactus"}>Contact Us</Link>
+    <Link className="nav-links" to={"/aboutus"}>About Us</Link>
   </div>
 
   <div className="button-wrapper">
@@ -35,8 +35,6 @@ const Navbar = (props) => {
     <Button>Signup</Button>
   </div>
 </nav>
-
-
       </div>
     </>
   );

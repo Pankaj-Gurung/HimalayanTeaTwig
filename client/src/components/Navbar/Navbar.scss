@@ -5,8 +5,8 @@
 
 nav {
   display: flex;
-  justify-content: space-between;  // Space out items
-  align-items: center;  // Align items vertically
+  justify-content: space-between; 
+  align-items: center;  
   padding: 1rem 2rem;
   font-size: 1.1em;
 }
@@ -45,15 +45,17 @@ a{
     transform: scale(1.2);
   }
 }
-.link-wrapper {
-  flex: 3;  // Allows links to take more space
+
+.link-wrapper{
   display: flex;
-  justify-content: center;  // Centering links
-  gap: 4rem;
+  gap: 2rem;
+  justify-content: center;
+  flex: 1;
+
 }
 
-
-
-
-
-
+.button-wrapper{
+  display: flex;
+  gap: 1.2rem;
+  margin-left: auto;
+}
