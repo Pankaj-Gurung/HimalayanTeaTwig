@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import Card from "../../components/card/card.component";
 
 const Shop = () => {
   return (
-    <div>Shop</div>
-  )
-}
+    <main className="shop-container">
+      <Card />
+    </main>
+  );
+};
 
-export default Shop
+export default Shop;
