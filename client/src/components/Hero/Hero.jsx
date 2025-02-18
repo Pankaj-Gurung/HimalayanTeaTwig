@@ -15,7 +15,6 @@ const Hero = () => {
         <p>Hand Picked</p>   
     </div>   
     </div>
-
     <div className='secondimg-wrapper'></div>
     <div className='thirdimg-wrapper'></div>
     </main>
