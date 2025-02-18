@@ -9,6 +9,7 @@
         background-color: antiquewhite;
         width: 820px;
         color: #812F2B;
+        padding: 2rem;
     }
 
     .first-img101{
@@ -21,16 +22,12 @@
         font-size: 4.3em;
         font-weight: 600;
         display: flex;
-        position: relative;
-        left: 2rem;
+        line-height: 1.2;
+        
     }
 
     p{
         font-weight:400;
         font-size: 1.2em;
-        display: flex;
-        position: relative;
-        left: 2rem;
-        
     }
 }

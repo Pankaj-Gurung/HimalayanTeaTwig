@@ -11,8 +11,10 @@ const Hero = () => {
      <div className='img1'>
         <h1>Original Tea</h1>
         <h1>From Ilam</h1>
+        <p>High Quality Tea</p>
         <p>Reasonable Pricing</p>
-        <p>Hand Picked</p>   
+        <p>Hand Picked</p>  
+
     </div>   
     </div>
     <div className='secondimg-wrapper'></div>

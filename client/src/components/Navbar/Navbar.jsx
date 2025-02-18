@@ -13,8 +13,6 @@ const Navbar = (props) => {
 
   return (
     <main className="nav-container">
-
-        
           <div className="top-nav">
             <span>Delivery all over Nepal!</span>{" "}
             <p>
