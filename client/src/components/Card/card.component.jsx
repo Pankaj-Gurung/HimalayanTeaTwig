@@ -1,8 +1,14 @@
 import React from "react";
-import "./Card.scss";
+import "./card.scss";
 
 const Card = () => {
-  return <div>Card</div>;
+  return (
+    <main className="card-container">
+      <div className="card-wrapper">
+
+      </div>
+    </main>
+  );
 };
 
 export default Card;

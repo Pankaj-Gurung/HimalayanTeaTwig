@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "image": "https://in-tea.net/products/himalayan-gold-premium-tea",
+    "title": "Himalayan Gold Tea",
+    "content": "A premium black tea sourced from the highlands of Ilam, offering a rich aroma and bold flavor.",
+    "price": 1200,
+    "unit": "per 100g"
+  },
+  {
+    "id": 2,
+    "image": "https://teahouseemporium.co.uk/product/loose-leaf-tea-tea-bags/green-tea-matcha/nepalese-ilam-green-tea/",
+    "title": "Ilam Green Bliss",
+    "content": "Hand-picked green tea with delicate floral notes and a refreshing aftertaste. Perfect for relaxation.",
+    "price": 950,
+    "unit": "per 100g"
+  },
+  {
+    "id": 3,
+    "image": "https://naturallynidhi.com/indian-masala-chai-spiced-tea-1/",
+    "title": "Classic Masala Chai",
+    "content": "A blend of robust black tea and aromatic spices like cardamom, cinnamon, and cloves—perfect for a warm, spicy cup.",
+    "price": 750,
+    "unit": "per 250g"
+  },
+  {
+    "id": 4,
+    "image": "https://www.pearltea.com.au/product/white-pearl/",
+    "title": "White Pearl Tea",
+    "content": "Rare white tea leaves with a smooth, delicate taste and high antioxidant content. A luxurious choice for tea lovers.",
+    "price": 1800,
+    "unit": "per 50g"
+  },
+  {
+    "id": 5,
+    "image": "https://gundara.com/SHOP/tulsi-tea/original-tulsi-tea-organic-india-herbal-tea-india",
+    "title": "Organic Tulsi Herbal Tea",
+    "content": "A caffeine-free herbal infusion made from fresh tulsi leaves, known for its stress-relieving and immunity-boosting benefits.",
+    "price": 600,
+    "unit": "per 100g"
+  }
+]
