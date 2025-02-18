@@ -10,8 +10,8 @@ const Navbar = (props) => {
   const {} = props;
 
   return (
-    <>
-      <div className="nav-container">
+    <main className="nav-container">
+
         
           <div className="top-nav">
             <span>Delivery all over Nepal!</span>{" "}
@@ -19,24 +19,23 @@ const Navbar = (props) => {
               <img src={truck} alt="" className="truck" />
             </p>
           </div>
-
           <nav>
-  <div className="logo"><img src={logo} alt="Logo" /></div>
+
+  <Link to={'/home'}><div className="logo"><img src={logo} alt="Logo" /></div></Link>
 
   <div className="link-wrapper">
-    <Link className="nav-links" to={"/home"} >Home</Link>
-    <Link className="nav-links" to={"/shop"}>Shop</Link>
-    <Link className="nav-links" to={"/contactus"}>Contact Us</Link>
-    <Link className="nav-links" to={"/aboutus"}>About Us</Link>
+    <Link className="nav-links" to={"/home"} >HOME</Link>
+    <Link className="nav-links" to={"/shop"}>SHOP</Link>
+    <Link className="nav-links" to={"/contactus"}>CONTACT US</Link>
+    <Link className="nav-links" to={"/aboutus"}>ABOUT US</Link>
   </div>
 
-  <div className="button-wrapper">
-    <Button>Login</Button>
-    <Button>Signup</Button>
+  <div className="right-link">
+  <Link>ACCOUNT</Link>
+  <Link>CART</Link>
   </div>
 </nav>
-      </div>
-    </>
+    </main>
   );
 };
 
