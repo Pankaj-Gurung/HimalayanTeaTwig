@@ -1,0 +1,26 @@
+.hero-container{
+    .firstimg-wrapper{
+        display: flex;
+        flex-direction: row;
+        overflow-x: hidden;
+    }
+
+    .img1{
+        background-color: antiquewhite;
+        width: 820px;
+        color: #812F2B;
+    }
+
+    .first-img101{
+        object-fit: cover;
+        height: 600px;
+        width: 700px;
+    }
+
+    h1{
+        font-size: 5em;
+        display: flex;
+        position: relative;
+        left: 2rem;
+    }
+}
