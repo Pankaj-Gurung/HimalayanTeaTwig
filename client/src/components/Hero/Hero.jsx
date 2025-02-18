@@ -1,6 +1,8 @@
 import React from 'react'
-import heroimg1 from '../../Images/hero1.png'
+import teaicon from '../../Images/smalltea-icon.png'
 import heroimg101 from '../../Images/hero1.1.jpg' 
+import moneyicon from '../../Images/affordable-icon.png'
+import handpickicon from '../../Images/handpick-icon.png'
 import './Hero.scss'
 
 const Hero = () => {
@@ -9,12 +11,12 @@ const Hero = () => {
     <div className='firstimg-wrapper'>
     <img src={heroimg101} alt="" className='first-img101' />
      <div className='img1'>
-        <h1>Original Tea</h1>
-        <h1>From Ilam</h1>
-        <p>High Quality Tea</p>
-        <p>Reasonable Pricing</p>
-        <p>Hand Picked</p>  
-
+        <h1>Original Tea All the Way From Ilam</h1>
+        <div className='heroicon-wrapper'>
+        <p> <img src={teaicon} alt=""className='hero-icon' />High Quality Tea</p>
+        <p><img src={moneyicon} alt="" className='hero-icon' />Reasonable Pricing</p>
+        <p><img src={handpickicon} alt="" className='hero-icon'/>Hand Picked</p>  
+        </div>
     </div>   
     </div>
     <div className='secondimg-wrapper'></div>

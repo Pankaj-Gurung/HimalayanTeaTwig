@@ -10,6 +10,15 @@
         width: 820px;
         color: #812F2B;
         padding: 2rem;
+
+        .hero-icon{
+            height: 1.9rem;
+            padding-right: 0.7rem;
+        }
+
+        .heroicon-wrapper{
+            padding-top: 1.5rem;
+        }
     }
 
     .first-img101{
@@ -22,12 +31,14 @@
         font-size: 4.3em;
         font-weight: 600;
         display: flex;
-        line-height: 1.2;
-        
+        line-height: 1.2;   
     }
 
     p{
         font-weight:400;
         font-size: 1.2em;
+        display: flex;
+        align-items: center;
+        padding: 0.5rem;
     }
 }
