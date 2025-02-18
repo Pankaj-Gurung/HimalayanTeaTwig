@@ -9,7 +9,7 @@ const Card = (props) => {
         <img src={image} alt={title} />
         <h3>{title}</h3>
         <p>{content}</p>
-        <span>{price}</span>
+        <span>Price: Rs. {price}</span>
       </div>
     </main>
   );
