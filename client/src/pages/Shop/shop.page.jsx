@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "../../components/card/card.component";
 import data from "../../utils/data.json";
+import './Shop.scss'
 
 const Shop = () => {
   return (
