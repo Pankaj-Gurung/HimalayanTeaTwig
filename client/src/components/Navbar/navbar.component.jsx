@@ -19,13 +19,13 @@ const Navbar = (props) => {
         </p>
       </div>
       <nav className="bottom-nav">
-        <Link to={"/home"}>
+        <Link to={"/"}>
           <div className="logo">
             <img src={logo} alt="Logo" />
           </div>
         </Link>
         <div className="link-wrapper">
-          <Link className="nav-links" to={"/home"}>
+          <Link className="nav-links" to={"/"}>
             HOME
           </Link>
           <Link className="nav-links" to={"/shop"}>
