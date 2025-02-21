@@ -6,8 +6,7 @@ Himalayan Tea Twigs is a modern tea shop website that offers a seamless shopping
 
 🛠️ Tech Stack
 Frontend: React.js
-State Management: React Context API
-Backend: Python
+State Management: React
 Styling: SCSS
 
 ✨ Features
