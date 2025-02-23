@@ -13,7 +13,7 @@ Styling: SCSS
 ✅ Beautiful and responsive UI/UX
 ✅ Browse different tea categories
 ✅ Add to cart functionality
-✅ Secure checkout process (Esewa, Khalti)
+✅ Secure checkout process (Esewa)
 
 🤝 Contributing
  If you have any suggestions, feel free to open an issue or submit a pull request.
