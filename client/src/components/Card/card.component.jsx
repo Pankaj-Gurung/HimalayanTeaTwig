@@ -2,7 +2,7 @@ import React from "react";
 import "./card.scss";
 
 const Card = (props) => {
-  const { image, title, content, price } = props;
+  const { image, title, content, price, style } = props;
   return (
     <main className="card-container">
       <div className="card-wrapper">

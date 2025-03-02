@@ -2,7 +2,7 @@ import React from "react";
 import "./button.scss";
 
 const Button = (props) => {
-  const { title, children } = props;
+  const { title, children, style} = props;
   return (
     <main className="button-container">
     <div className="button-wrapper">
