@@ -1,6 +1,7 @@
 import React from 'react'
 
-const Modal = () => {
+const Modal = (props) => {
+  const {header, content} = props
   return (
     <div>Modal</div>
   )
