@@ -4,7 +4,7 @@
     "image": "https://teahouseemporium.co.uk/wp-content/uploads/2023/06/Nepalese-Ilam-Green-Tea.jpg",
     "title": "Himalayan Gold Tea",
     "content": "A premium black tea sourced from the highlands of Ilam, offering a rich aroma and bold flavor.",
-    "price": 1200,
+    "price": 1500,
     "unit": "per 100g"
   },
   {
@@ -12,7 +12,7 @@
     "image": "https://teahouseemporium.co.uk/wp-content/uploads/2023/06/Nepalese-Ilam-Green-Tea.jpg",
     "title": "Ilam Green Bliss",
     "content": "Hand-picked green tea with delicate floral notes and a refreshing aftertaste. Perfect for relaxation.",
-    "price": 950,
+    "price": 450,
     "unit": "per 100g"
   },
   {
@@ -20,7 +20,7 @@
     "image": "https://teahouseemporium.co.uk/wp-content/uploads/2023/06/Nepalese-Ilam-Green-Tea.jpg",
     "title": "Classic Masala Chai",
     "content": "A blend of robust black tea and aromatic spices like cardamom, cinnamon, and cloves—perfect for a warm, spicy cup.",
-    "price": 750,
+    "price": 950,
     "unit": "per 250g"
   },
   {
@@ -28,7 +28,7 @@
     "image": "https://teahouseemporium.co.uk/wp-content/uploads/2023/06/Nepalese-Ilam-Green-Tea.jpg",
     "title": "White Pearl Tea",
     "content": "Rare white tea leaves with a smooth, delicate taste and high antioxidant content. A luxurious choice for tea lovers.",
-    "price": 1800,
+    "price": 1400,
     "unit": "per 50g"
   },
   {
@@ -36,7 +36,7 @@
     "image": "https://teahouseemporium.co.uk/wp-content/uploads/2023/06/Nepalese-Ilam-Green-Tea.jpg",
     "title": "Organic Tulsi Herbal Tea",
     "content": "A caffeine-free herbal infusion made from fresh tulsi leaves, known for its stress-relieving and immunity-boosting benefits.",
-    "price": 600,
+    "price": 800,
     "unit": "per 100g"
   }
 ]
