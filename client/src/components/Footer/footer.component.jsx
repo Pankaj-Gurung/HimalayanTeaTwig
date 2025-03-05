@@ -1,7 +1,7 @@
 import React from "react";
 import "./footer.scss";
 
-const Footer = (props) => {
+export const Footer = (props) => {
   const { style, title, children } = props;
   return (
     <>
@@ -9,5 +9,3 @@ const Footer = (props) => {
     </>
   );
 };
-
-export default Footer;

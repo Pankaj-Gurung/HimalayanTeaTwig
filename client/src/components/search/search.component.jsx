@@ -1,7 +1,7 @@
 import React from "react";
 import "./search.scss";
 
-const Search = (props) => {
+export const Search = (props) => {
   const { placeholder, title } = props;
   return (
     <main className="search-container">
@@ -9,5 +9,3 @@ const Search = (props) => {
     </main>
   );
 };
-
-export default Search;
