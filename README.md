@@ -5,7 +5,7 @@
 Himalayan Tea Twigs is a modern tea shop website that offers a seamless shopping experience for tea enthusiasts. The platform provides a user-friendly interface, beautiful UI/UX, and smooth functionality to browse and purchase high-quality Himalayan tea online.
 
 🛠️ Tech Stack
-Frontend: React.js
+Frontend: React js, possible migration to TypeScript
 State Management: Intially useState hooks, eventually move to redux
 Styling: SCSS
 UI/UX design : Figma
