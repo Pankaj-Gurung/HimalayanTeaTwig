@@ -5,7 +5,7 @@ import moneyicon from "../../Images/affordable-icon.png";
 import handpickicon from "../../Images/handpick-icon.png";
 import "./hero.scss";
 
-export const Hero = () => {
+const Hero = () => {
   return (
     <main className="hero-container">
       <div className="firstimg-wrapper">
@@ -35,4 +35,4 @@ export const Hero = () => {
   );
 };
 
-
+export default Hero;

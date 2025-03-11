@@ -7,7 +7,7 @@ import logo from "../../Images/logo.png";
 import { CgProfile } from "react-icons/cg";
 import { LuShoppingCart } from "react-icons/lu";
 
-export const Navbar = (props) => {
+const Navbar = (props) => {
   const {} = props;
 
   return (
@@ -52,3 +52,5 @@ export const Navbar = (props) => {
     </main>
   );
 };
+
+export default Navbar;

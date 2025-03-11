@@ -1,7 +1,7 @@
 import React from "react";
 import "./button.scss";
 
-export const Button = (props) => {
+export default Button = (props) => {
   const { title, children, style } = props;
   return (
     <main className="button-container">

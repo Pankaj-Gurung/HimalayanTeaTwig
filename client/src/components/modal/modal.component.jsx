@@ -1,6 +1,6 @@
 import React from "react";
 
-export const Modal = (props) => {
+export default Modal = (props) => {
   const { header, content } = props;
   return <div>Modal</div>;
 };
